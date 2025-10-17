@@ -75,4 +75,44 @@ This project combines **Galaxy**, **Anvi’o**, and **R/Bioconductor** workflows
 ---
 
 ### 🧩 Repository Structure
+wns_bats_data/
+│
+├── data/
+│ ├── metadata/ # sample info, BioProject IDs
+│ └── processed/ # count tables, annotations
+│
+├── scripts/
+│ ├── galaxy/ # Galaxy workflow exports (.ga)
+│ ├── r_analysis/ # DESeq2, clusterProfiler scripts
+│ ├── anvio/ # Anvi’o and pangenome commands
+│ └── utilities/ # QC and file-handling scripts
+│
+├── results/
+│ ├── figures/ # plots, maps, heatmaps
+│ └── tables/ # DE results, enrichment outputs
+│
+├── notebooks/ # Jupyter or RMarkdown notebooks
+│
+├── docs/
+│ ├── Galaxy_to_Anvio_pipeline.md
+│ ├── workflow_diagram.png
+│ └── references.bib
+│
+├── environment.yml
+├── README.md
+└── LICENSE
+
+---
+
+### 📦 Reproducibility  
+- All workflows exported from Galaxy (`.ga` files) are saved under `/scripts/galaxy/`.  
+- Environment dependencies tracked in `environment.yml`.  
+- Genome databases and antiSMASH annotations reproducibly generated with Anvi’o commands documented in `/scripts/anvio/`.  
+- Final repository archived on **Zenodo** for DOI citation.
+
+---
+
+### 🔗 Citation  
+If using these materials, please cite:  
+Torres, L. (2025). *Targeting the Fungus Behind White-Nose Syndrome in Northeast US Bat Populations: Exploring Biological Mechanisms and Innovative Conservation Interventions*. University of Alaska Fairbanks, BIOL F493.
 
