@@ -74,7 +74,7 @@ This project combines **Galaxy**, **Anvi’o**, and **R/Bioconductor** workflows
 
 ---
 
-## 🧩 Repository Structure
+### 🧩 Repository Structure
 wns_bats_data/
 │
 ├── data/
@@ -101,7 +101,8 @@ wns_bats_data/
 ├── environment.yml
 ├── README.md
 └── LICENSE
-***
+
+---
 
 ### 📦 Reproducibility  
 - All workflows exported from Galaxy (`.ga` files) are saved under `/scripts/galaxy/`.  
