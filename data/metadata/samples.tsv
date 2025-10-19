@@ -1,0 +1,9 @@
+sample_id	organism	condition	tissue	sra_accession	read1	read2	library_type	platform
+Pd_culture_1	Pd	culture	mycelium	SRR6004468	data/raw/Pd_culture_1_R1.fastq.gz	data/raw/Pd_culture_1_R2.fastq.gz	paired-end	Illumina
+Pd_culture_2	Pd	culture	mycelium	SRR6004469	data/raw/Pd_culture_2_R1.fastq.gz	data/raw/Pd_culture_2_R2.fastq.gz	paired-end	Illumina
+Pd_infect_1	Pd	infected	bat_skin	SRR6004470	data/raw/Pd_infect_1_R1.fastq.gz	data/raw/Pd_infect_1_R2.fastq.gz	paired-end	Illumina
+Pd_infect_2	Pd	infected	bat_skin	SRR6004471	data/raw/Pd_infect_2_R1.fastq.gz	data/raw/Pd_infect_2_R2.fastq.gz	paired-end	Illumina
+Bat_ctrl_1	bat	control	wing	SRR1959294	data/raw/Bat_ctrl_1_R1.fastq.gz	data/raw/Bat_ctrl_1_R2.fastq.gz	paired-end	Illumina
+Bat_ctrl_2	bat	control	wing	SRR1959295	data/raw/Bat_ctrl_2_R1.fastq.gz	data/raw/Bat_ctrl_2_R2.fastq.gz	paired-end	Illumina
+Bat_inf_1	bat	infected	wing	SRR1959296	data/raw/Bat_inf_1_R1.fastq.gz	data/raw/Bat_inf_1_R2.fastq.gz	paired-end	Illumina
+Bat_inf_2	bat	infected	wing	SRR1959297	data/raw/Bat_inf_2_R1.fastq.gz	data/raw/Bat_inf_2_R2.fastq.gz	paired-end	Illumina
